@@ -12,20 +12,21 @@ const Header = () => {
         <>
             <Navbar bg="light" fixed="sticky" collapseOnSelect expand="lg" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home"><span className="text-danger">Smart</span> <br></br>MediCare</Navbar.Brand>
+                    <Navbar.Brand href="#home"><span className="custom-color font-bold">Smart</span> <br></br>MediCare</Navbar.Brand>
                     
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                            <Nav.Link as={HashLink} to="/home"  className="text-dark links">Home</Nav.Link>
-                            <Nav.Link as={HashLink} href="#features" className="text-dark">About</Nav.Link>
-                            <Nav.Link as={HashLink} href="#pricing" className="text-dark">Services</Nav.Link>
-                            <Nav.Link as={HashLink} href="#pricing" className="text-dark">Our Experts</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#home"  className="text-dark links">Home</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#about" className="text-dark">About</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#services" className="text-dark">Services</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#pricing" className="text-dark">Pricing</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#contact" className="text-dark">Contact Us</Nav.Link>
                         <Navbar.Text>
                         Signed in as: <b>{user?.displayName}</b>
                         </Navbar.Text>
-                        {user.email ? <Button onClick={logOut} className="custom-btn" variant="light">Logout</Button> : <Nav.Link as={Link} to="/login"><Button className="custom-btn" variant="light">Login</Button></Nav.Link>}
+                        {user.email ? <Button onClick={logOut} className="custom-btn ml-4" variant="light">Logout</Button> : <Nav.Link as={Link} to="/login" className="custom-btn ml-4">Login</Nav.Link>}
                         
-                        <Button className="custom-border-btn " variant="light">Register</Button>
+                        {!user.email && <Nav.Link as={Link} to="/register" className="custom-border-btn ml-2">Register</Nav.Link>}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

@@ -8,6 +8,7 @@ import {
 import Login from './components/Login/Login';
 import Header from './components/Header/Nav/Header';
 import AuthProvider from './contexts/AuthProvider';
+import Register from './components/Register/Register';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/register">
+            <Register></Register>
           </Route>
         </Switch>
 

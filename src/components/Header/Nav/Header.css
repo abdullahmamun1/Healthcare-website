@@ -1,0 +1,35 @@
+.custom-btn {
+    background: #e12454;
+    color: white;
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-left: 5px;
+  }
+
+  .custom-btn:hover{
+    background-color: white;
+    color: #e12454;
+    transition: 0.2s;
+  }
+.custom-border-btn {
+    background: white;
+    color: #e12454;
+    border: 2px solid #e12454;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-left: 5px;
+  }
+
+  .custom-border-btn:hover{
+    background-color: #e12454;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .links:hover{
+    color: #e12454;
+
+  }

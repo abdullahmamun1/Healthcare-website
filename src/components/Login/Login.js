@@ -1,11 +1,11 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth'
 
 const Login = () => {
-    const {signInUsingGoogle, handleLogin,error, handleEmailChange, handlePasswordChange} = useAuth();
+    const {user, signInUsingGoogle, handleLogin,error, handleEmailChange, handlePasswordChange} = useAuth();
     return (
         <>
         <h1 className="font-bold text-4xl text-center mt-4 mb-3">Please Login</h1>
@@ -23,9 +23,12 @@ const Login = () => {
   </Form.Group>
   <div>{error}</div>
   
-  <Button className="custom-btn" type="submit">
+  {user.email ? <Redirect to={{
+              pathname: "/home"
+            }}
+          ></Redirect> : <Button className="custom-btn" type="submit" >
     Login
-  </Button>
+  </Button>}
   </Container>
   </Form>
   

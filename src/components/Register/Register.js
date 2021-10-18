@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Register = () => {
-    const {error, signInUsingGoogle, handleEmailChange, handlePasswordChange, handleRegister, handleNameChange} = useAuth();
+    const {user, error, signInUsingGoogle, handleEmailChange, handlePasswordChange, handleRegister, handleNameChange} = useAuth();
     return (
         <>
         <h1 className="font-bold text-4xl text-center mt-4 mb-3">Please Register</h1>
@@ -26,9 +26,12 @@ const Register = () => {
     <Form.Control onBlur={handlePasswordChange} type="password" placeholder="Password" required />
   </Form.Group>
   <div>{error}</div>
-  <Button className="custom-btn" type="submit">
+  {user.email ? <Redirect to={{
+              pathname: "/home"
+            }}
+          ></Redirect> : <Button className="custom-btn" type="submit" >
     Register
-  </Button>
+  </Button>}
   </Container>
   </Form>
   <Container>

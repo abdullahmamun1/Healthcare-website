@@ -10,6 +10,8 @@ import Header from './components/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import Register from './components/Register/Register';
 import Contact from './components/Contact/Contact';
+import Pricing from './components/Pricing/Pricing';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -23,9 +25,12 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/contact">
+          <PrivateRoute path="/pricing">
+            <Pricing></Pricing>
+          </PrivateRoute>
+          <PrivateRoute path="/contact">
             <Contact></Contact>
-          </Route>
+          </PrivateRoute>
           <Route path="/login">
             <Login></Login>
           </Route>

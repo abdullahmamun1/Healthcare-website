@@ -6,7 +6,7 @@ import useAuth from '../../hooks/useAuth';
 const Register = () => {
     const {user, error, signInUsingGoogle, handleEmailChange, handlePasswordChange, handleRegister, handleNameChange} = useAuth();
     return (
-        <>
+        <div className="pt-20">
         <h1 className="font-bold text-4xl text-center mt-4 mb-3">Please Register</h1>
         <Form className="mb-2" onSubmit={handleRegister}>
             <Container>
@@ -41,7 +41,7 @@ const Register = () => {
   <button onClick={signInUsingGoogle} className="custom-border-btn mt-4">Google Sign In</button>
   </Container>
   
-  </>
+  </div>
     );
 };
 

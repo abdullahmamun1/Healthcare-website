@@ -4,7 +4,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="my-10">
+        <div className="my-10 pt-20">
             <div className="my-10">
                 <h1 className="text-center text-5xl font-bold mt-8 mb-4 "><span className="custom-color underline">Contact Us</span></h1>
                 <p className="text-center text-xl">Really we want to help you as soon as possible.</p>
@@ -22,7 +22,7 @@ const Contact = () => {
                         <textarea className="border-2 p-1 w-full custom-border-color" name="message" placeholder="Your Message" cols="30" rows="10"></textarea>
                         <button className="w-full custom-bg-color text-white py-2 hover:bg-red-700">Submit</button>
                     </div>
-                    <div className="lg:w-1/2 lg:text-left text-center">
+                    <div className="lg:w-1/2 lg:text-left text-center pt-20">
                         
                         <br/>
                         <p className="text-xl">Or..</p>

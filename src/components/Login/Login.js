@@ -7,7 +7,7 @@ import useAuth from '../../hooks/useAuth'
 const Login = () => {
     const {user, signInUsingGoogle, handleLogin,error, handleEmailChange, handlePasswordChange} = useAuth();
     return (
-        <>
+        <div className="pt-20">
         <h1 className="font-bold text-4xl text-center mt-4 mb-3">Please Login</h1>
         <Form className="mb-2" onSubmit={handleLogin}>
             <Container>
@@ -40,7 +40,7 @@ const Login = () => {
   </Container>
   
   
-  </>
+  </div>
     );
 };
 

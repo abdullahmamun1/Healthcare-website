@@ -14,11 +14,11 @@ const Experts = () => {
                 <h1 className="text-center text-5xl font-bold mt-8 mb-4 "><span className="custom-color underline">Our Experts</span></h1>
                 <p className="text-center text-xl">We provided some specialists for your  better treatment.</p>
             </div>
-        <div  className="container grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <div  className="container grid grid-cols-1 lg:grid-cols-3 gap-4">
             {
                 experts.map(expert => <Expert key={expert.id} expert={expert}></Expert>)
             }
-        </div>
+            </div>
         </div>
     );
 };

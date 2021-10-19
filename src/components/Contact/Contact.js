@@ -11,9 +11,8 @@ const Contact = () => {
             </div>
             <div>
                 <div className="lg:flex w-full">
-                    
                     <div className="mx-4 lg:mx-20 lg:w-1/2 justify-center">
-                    <h1 className="text-5xl font-semibold mb-4 text-center">Send Us Message</h1>
+                        <h1 className="text-5xl font-semibold mb-4 text-center">Send Us Message</h1>
                         <div className="lg:flex lg:mb-4">
                             <input className="border-2 mb-2 p-1 w-full lg:w-1/2 custom-border-color mr-2" type="text" name="first-name" placeholder="First Name" />
                             <input className="border-2 mb-2 p-1 w-full lg:w-1/2 custom-border-color lg:ml-2" type="text" name="last-name" placeholder="Last Name" />
@@ -23,7 +22,6 @@ const Contact = () => {
                         <button className="w-full custom-bg-color text-white py-2 hover:bg-red-700">Submit</button>
                     </div>
                     <div className="lg:w-1/2 lg:text-left text-center pt-20">
-                        
                         <br/>
                         <p className="text-xl">Or..</p>
                         <h3 className="text-3xl">Contact us on..</h3>

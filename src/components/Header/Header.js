@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import useAuth from '../../../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
 import './Header.css'
 
 const Header = () => {
@@ -16,11 +16,11 @@ const Header = () => {
                     
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                            <Nav.Link as={HashLink} to="/home#home"  className="text-dark links">Home</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#home"  className="text-dark link">Home</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#about" className="text-dark">About</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#services" className="text-dark">Services</Nav.Link>
-                            <Nav.Link as={HashLink} to="/home#pricing" className="text-dark">Pricing</Nav.Link>
-                            <Nav.Link as={HashLink} to="/home#contact" className="text-dark">Contact Us</Nav.Link>
+                            <Nav.Link as={Link} to="/pricing" className="text-dark">Pricing</Nav.Link>
+                            <Nav.Link as={Link} to="/contact" className="text-dark">Contact Us</Nav.Link>
                         <Navbar.Text>
                         Signed in as: <b>{user?.displayName}</b>
                         </Navbar.Text>

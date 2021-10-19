@@ -16,6 +16,12 @@
 .custom-color{
   color: #e12454;
 }
+.custom-border-color{
+  border-color: #e12454;
+}
+.custom-bg-color{
+  background-color: #e12454;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

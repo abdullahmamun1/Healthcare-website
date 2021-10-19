@@ -4,11 +4,11 @@ import {Card} from 'react-bootstrap';
 const Pricing = () => {
     return (
         <div className="container">
-            <div className="py-10">
+            <div className="my-10">
                 <h1 className="text-center text-5xl font-bold mt-8 mb-4"><span className="custom-color underline">Pricing</span></h1>
                 <p className="text-center text-xl font-semibold">Make life easier with comfortable pricing</p>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 my-10">
                 <Card>
                     <Card.Body>
                         <Card.Title className="text-4xl">Basic Plan</Card.Title>

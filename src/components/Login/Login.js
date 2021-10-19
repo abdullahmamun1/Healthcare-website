@@ -32,7 +32,7 @@ const Login = () => {
   </Container>
   </Form>
   
-  <Container>
+  <Container className="py-10">
       <p>Create an Account? <Link to="/register" className="custom-color"><u>Register</u></Link></p>
       <br></br>
       <h1>Or.....</h1>

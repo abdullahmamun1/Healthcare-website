@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Primary Health Care",
+      "description": "Primary healthcare refers to a broad range of health services provided by medical professionals in the community. ... Primary healthcare is the provision of health services, including diagnosis and treatment of a health condition, and support in managing long-term healthcare, including chronic conditions like diabetes.",
+      "img": "https://image.freepik.com/free-photo/close-up-picture-doctor-s-hands-posting-symbol-home-family-member-model_1150-26706.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Precise Diagnosis",
+      "description": "Precision diagnosis is the accurate and timely explanation of each patient's health problem and further requires communication of that explanation to patients and surrogate decision-makers. Both accuracy and timeliness are essential to critical care, yet computed decision support systems (CDSS) are scarce.",
+      "img": "https://image.freepik.com/free-photo/doctor-her-patient-choosing-mammary-prosthesis-office_1301-7774.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Home Care",
+      "description": "Home care includes any professional support services that allow a person to live safely in their home. In-home care services can help someone who is aging and needs Professional caregivers such as nurses, aides, and therapists provide short-term or long-term care in the home, depending on a person's needs.",
+      "img": "https://image.freepik.com/free-photo/house-protection-bank_1150-12786.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dental Care",
+      "description": "​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​Dental or oral health is concerned with your teeth, gums and mouth. The goal is to prevent complications such as tooth decay (cavities) and gum disease and to maintain the overall health of your mouth.",
+      "img": "https://image.freepik.com/free-photo/dentist-examining-female-patient_107420-65395.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Regular Checkup",
+      "description": "Regular check-ups can help find potential health issues before they become a problem. When you see your doctor regularly, they are able to detect health conditions or diseases early. Early detection gives you the best chance for treatment you are taking important steps toward living a longer, healthier life.",
+      "img": "https://mypvhc.com/wp-content/uploads/2017/04/shutterstock_373412494.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Old Care",
+      "description": "Elderly care, or simply eldercare  serves the needs and requirements of senior citizens. It encompasses assisted living, adult daycare, long-term care, nursing homes, hospice care, and home care. Because of the wide variety of elderly care needs and cultural perspectives on the elderly",
+      "img": "https://image.freepik.com/free-photo/senior-woman-talking-with-her-doctor_23-2148962385.jpg"
+    }
+  ]

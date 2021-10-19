@@ -34,7 +34,7 @@ const Register = () => {
   </Button>}
   </Container>
   </Form>
-  <Container>
+  <Container className="py-10">
       <p>Already have an Account? <Link to="/login" className="custom-color"><u>Login</u></Link></p>
       <br></br>
       <h1>Or.....</h1>

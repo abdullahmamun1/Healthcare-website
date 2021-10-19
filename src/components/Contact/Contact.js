@@ -4,15 +4,15 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
-            <div className="py-10">
+        <div className="my-10">
+            <div className="my-10">
                 <h1 className="text-center text-5xl font-bold mt-8 mb-4 "><span className="custom-color underline">Contact Us</span></h1>
                 <p className="text-center text-xl">Really we want to help you as soon as possible.</p>
             </div>
             <div>
                 <div className="lg:flex w-full">
                     
-                    <div className="mx-20 lg:w-1/2 justify-center">
+                    <div className="mx-4 lg:mx-20 lg:w-1/2 justify-center">
                     <h1 className="text-5xl font-semibold mb-4 text-center">Send Us Message</h1>
                         <div className="lg:flex lg:mb-4">
                             <input className="border-2 mb-2 p-1 w-full lg:w-1/2 custom-border-color mr-2" type="text" name="first-name" placeholder="First Name" />

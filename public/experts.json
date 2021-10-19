@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. MD Mahfuzur Rahman",
+      "title": "Brain, Nurve & Spine Specialist",
+      "medical": "Consultant Neuro Surgeon - DMC",
+      "schedule": "7pm - 10pm",
+      "img": "https://image.freepik.com/free-photo/portrait-smiling-male-doctor_171337-1532.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Professor Dr. Sikha Saha",
+        "title": "Gynecology Specialist",
+        "medical": "Professor & Department Head - SBMC",
+        "schedule": "5pm - 9pm",
+        "img": "https://image.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Ilias Rob",
+        "title": "MBBS, BCS, FCPS",
+        "medical": "SBMC",
+        "schedule": "7pm - 10pm",
+        "img": "https://image.freepik.com/free-photo/hospital-healthcare-workers-covid-19-treatment-concept-young-doctor-scrubs-making-daily-errands-clinic-listening-patient-symptoms-look-camera-professional-physician-curing-diseases_1258-57233.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Dr. Kamaruzzaman Jahir",
+        "title": "MCPS (Medicine) , MD",
+        "medical": "Assistane Professor - SBMC",
+        "schedule": "6pm - 9pm",
+        "img": "https://image.freepik.com/free-photo/covid-19-preventing-virus-healthcare-workers-vaccination-concept-confident-determined-professional-doctor-medical-mask-gloves-cross-arms-chest-treating-sick-patients_1258-57479.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Professor Dr. Sayedur Rahman",
+        "title": "FCPS (Medicine), FRCP, FACP",
+        "medical": "Professor & Department Head - SBMC",
+        "schedule": "5pm - 10pm",
+        "img": "https://image.freepik.com/free-photo/healthcare-workers-medicine-covid-19-pandemic-self-quarantine-concept-smiling-attractive-doctor-scrubs-glasses-stethoscope-neck-cross-arms-chest-ready-help-patients_1258-58772.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Dr. Syed Abdul Kader",
+        "title": "MBBS, BCS (Health), MD (Endocrinology)",
+        "medical": "Asst. Professor & Department Head - SBMC",
+        "schedule": "4:30pm - 9pm",
+        "img": "https://image.freepik.com/free-photo/covid-19-healthcare-workers-pandemic-preventing-virus-concept-excited-doctor-white-coat-medical-mask-gloves-introduce-new-vaccine-pointing-syringe-astonished_1258-58629.jpg"
+      }
+  ]

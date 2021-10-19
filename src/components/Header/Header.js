@@ -1,4 +1,3 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -9,7 +8,7 @@ const Header = () => {
     const {user, logOut} = useAuth();
     return (
         <>
-            <Navbar bg="light" fixed="sticky" collapseOnSelect expand="lg" variant="light">
+            <Navbar bg="light" fixed="top" collapseOnSelect expand="lg" variant="light">
                 <Container>
                     <Navbar.Brand as={Link} to="/home#home"><span className="custom-color font-bold">Smart</span> <br></br>MediCare</Navbar.Brand>
                     
@@ -18,6 +17,7 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/home#home"  className="custom-color">Home</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#about" className="custom-color">About</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#services" className="custom-color">Services</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#experts" className="custom-color">Experts</Nav.Link>
                             <Nav.Link as={Link} to="/pricing" className="custom-color">Pricing</Nav.Link>
                             <Nav.Link as={Link} to="/contact" className="custom-color">Contact Us</Nav.Link>
                         <Navbar.Text>

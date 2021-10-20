@@ -17,7 +17,7 @@ const useFirebase = () => {
    
     const auth = getAuth(); 
 
-
+    
     
     const signInUsingGoogle = () => {
         setIsLoading(true);
@@ -26,23 +26,23 @@ const useFirebase = () => {
         .then((result) => {
         setUser(result.user);
     })
-    .catch(error => setError(error))
     .finally(()=> setIsLoading(false));
     }
 
     
+    // observe user state change
     useEffect(() => {
-        const unsubscribed = onAuthStateChanged(auth, (user) => {
-            if(user){
-                setUser(user)
+        const unsubscribed = onAuthStateChanged(auth, user => {
+            if (user) {
+                setUser(user);
             }
-            else{
+            else {
                 setUser({})
             }
-            setIsLoading(false)
+            setIsLoading(false);
         });
         return () => unsubscribed;
-    },[])
+    }, [])
 
 
     const handleEmailChange = e => {
@@ -79,7 +79,7 @@ const useFirebase = () => {
         signInWithEmailAndPassword(auth, email, password)
         .then((result) => {
             setUser(result.user);
-            // setUserName()
+            setUserName()
             setError('')
         })
         .catch(error => {
